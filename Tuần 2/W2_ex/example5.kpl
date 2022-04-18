@@ -1,0 +1,39 @@
+CHƯƠNG TRÌNH VÍ DỤ3; (* THÁP HÀ NỘI *)
+VAR I: INTEGER;  
+     N: INTEGER;  
+     P: INTEGER;  
+     Q: INTEGER;
+     C: CHAR;
+
+THỦ TỤC HÀ NỘI (N: INTEGER; S: INTEGER; Z: INTEGER);
+BẮT ĐẦU
+  NẾU N! = 0 THEN
+    BẮT ĐẦU
+      GỌI HÀ NỘI (N-1, S, 6-SZ);
+      I: = I + 1;  
+      GỌI WRITELN;
+      GỌI WRITEI (I);  
+      GỌI WRITEI (N);
+      GỌI WRITEI (S);  
+      GỌI WRITEI (Z);
+      GỌI HÀ NỘI (N-1,6-SZ, Z)
+    CHẤM DỨT
+CHẤM DỨT; (* HẾT HÀ NỘI *)
+
+BẮT ĐẦU
+  CHO N: = 1 ĐẾN 4 LÀM  
+    BẮT ĐẦU
+      CHO TÔI: = 1 ĐẾN 4 LÀM  
+        GỌI WRITEC ('');
+      GỌI READC (C);  
+      GỌI WRITEC (C)
+    CHẤM DỨT;
+  P: = 1;  
+  Hỏi: = 2;
+  CHO N: = 2 ĐẾN 4 LÀM
+    BẮT ĐẦU  
+      Ta: = 0;  
+      GỌI HÀ NỘI (N, P, Q);  
+      GỌI WRITELN  
+    CHẤM DỨT
+CHẤM DỨT. (* THÁP HÀ NỘI *) 
