@@ -1,0 +1,8 @@
+Chương trình Ví dụ1; (* Ví dụ 1 *)
+#define MAX 100
+Bắt đầu
+	CHO (1.100)
+          GỌI WRITEC ('');
+
+
+Chấm dứt. (* Ví dụ 1 *)
