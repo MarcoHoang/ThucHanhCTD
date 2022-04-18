@@ -1,0 +1,16 @@
+Chương trình Ví dụ2; (* Yếu tố *)
+
+Var n: Số nguyên;
+
+Function F (n: Integer): Số nguyên;
+  Bắt đầu
+    If n = 0 Then F: = 1 Else F: = N * F (N - 1);
+  Chấm dứt;
+
+Bắt đầu
+  Đối với n: = 1 Đến 7 Làm
+    Bắt đầu
+      Gọi WriteLn;
+      Gọi WriteI (F (i));
+    Chấm dứt;
+Chấm dứt. (* Yếu tố *) 
