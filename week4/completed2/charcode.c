@@ -1,6 +1,6 @@
 /* 
  * @copyright (c) 2008, Hedspi, Hanoi University of Technology
- * @author Huu-Duc Nguyen
+ * @author Vinh-Duc Tran
  * @version 1.0
  */
 
